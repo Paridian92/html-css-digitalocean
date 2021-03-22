@@ -1,0 +1,85 @@
+*{
+  font-weight: 500;
+}
+/* classi riutilizzabili */
+.pa-text-white{
+  color:white;
+}
+
+.pa-text-blue{
+  color: #006aff;
+}
+
+.pa-margin-top{
+  margin-top: 80px;
+}
+
+.pa-wrapper-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.pa-wrapper-40{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.pa-padding-80{
+  padding: 80px 0;
+}
+
+.container-80{
+  width: 80%;
+  margin: auto;
+}
+
+/* navbar */
+#nav-bar{
+  position: fixed;
+  height: 80px;
+  background-color: white;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.logo-navbar-img img{
+  width: 80%;
+  padding-top: 16px;
+}
+
+#nav-bar ul a{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  white-space: nowrap;
+  color: black;
+  font-size: 16px;
+  line-height: 80px;
+}
+
+#nav-bar ul .btn{
+  font-size: 16px;
+    border: 1px solid #006aff;
+}
+
+/* jumbotron */
+#jumbotron{
+  width: 100%;
+  padding-top: 80px;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;
+  
+}
+
+#jumbotron h1{
+  font-size: 72px;
+}
+
+#jumbotron p{
+  font-size: 22px;
+}
+
+#jumbo-form{
+  background-color: white;
+  border-radius: 10px;
+}
