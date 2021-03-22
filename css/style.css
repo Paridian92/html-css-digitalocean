@@ -1,5 +1,5 @@
 *{
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;  
 }
 /* classi riutilizzabili */
 .pa-text-white{
@@ -33,6 +33,10 @@
   margin: auto;
 }
 
+.w-100{
+  width: 100%;
+}
+
 /* navbar */
 #nav-bar{
   position: fixed;
@@ -43,7 +47,8 @@
 }
 
 .logo-navbar-img img{
-  width: 80%;
+  width: 210px;
+  height:60px;
   padding-top: 16px;
 }
 
@@ -51,7 +56,7 @@
   display: inline-block;
   text-decoration: none;
   margin-right: 20px;
-  white-space: nowrap;
+  
   color: black;
   font-size: 16px;
   line-height: 80px;
