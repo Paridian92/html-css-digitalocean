@@ -16,6 +16,10 @@
   color: grey;
 }
 
+.pa-font-22{
+  font-size: 22px;
+}
+
 .pa-margin-top{
   margin-top: 80px;
 }
@@ -78,6 +82,9 @@
     border: 1px solid #006aff;
 }
 
+.burger-menu{
+  line-height: 80px;
+}
 
 /* jumbotron */
 
@@ -136,3 +143,8 @@
 
 /* info */
 
+#info ul{
+  border-left: 1px solid grey;
+  padding-left: 30px;
+  line-height: 2em;
+}
