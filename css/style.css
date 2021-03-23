@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;  
 }
 
-/* classi riutilizzabili */
+/* classi riutilizzabili/generali */
 
 .pa-text-white{
   color:white;
@@ -51,6 +51,11 @@
   width: 100%;
 }
 
+#partners,
+#carousel1{
+  background-color:#f3f5f9;
+}
+
 /* navbar */
 
 #nav-bar{
@@ -96,18 +101,19 @@
 }
 
 #jumbotron h1{
-  font-size: 72px;
+  font-size: 60px;
 }
 
 #jumbotron p{
   font-size: 22px;
+  color: lightgrey;
 }
 
 #jumbo-form{
   background-color: white;
   border-radius: 10px;
   line-height: 20px;
-  margin: 40px 0;
+  margin-top: 100px;
 }
 
 #jumbo-form .btn-primary{
@@ -128,9 +134,6 @@
 
 /* partners */
 
-#partners{
-  background-color:#f3f5f9;
-}
 
 #partners a{
   font-size: 16px;
@@ -141,10 +144,37 @@
   margin: 30px 0;
 }
 
+.img-responsive{
+  vertical-align: middle;
+  
+}
+
 /* info */
 
 #info ul{
   border-left: 1px solid grey;
   padding-left: 30px;
-  line-height: 2em;
+  line-height: 2em;  
+}
+
+/* carousel1 */
+
+#carousel1 img{
+  width: 100%;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 991px) {
+  #jumbotron h1{
+    font-size: 36px;
+  }
+
+  #jumbotron p{
+    margin-bottom: 0;
+  }
+  #jumbo-form{
+    margin-top: 0;
+  }
 }
